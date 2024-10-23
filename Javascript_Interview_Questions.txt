@@ -1,0 +1,63 @@
+Here are twenty commonly asked JavaScript interview questions:
+
+1. **What are the different data types present in JavaScript?**
+   - JavaScript has several data types including Number, String, Boolean, Object, Undefined, Null, and Symbol (ES6).
+
+2. **Explain the concept of closures in JavaScript.**
+   - A closure is a function that remembers its outer variables and can access them. In JavaScript, every function forms a closure. A closure gives you access to an outer function’s scope from an inner function.
+
+3. **What is the difference between `let`, `const`, and `var`?**
+   - `var` is function-scoped, `let` and `const` are block-scoped. `const` variables cannot be reassigned, while `let` can.
+
+4. **What are promises in JavaScript?**
+   - Promises are objects representing the eventual completion or failure of an asynchronous operation. They have three states: pending, fulfilled, and rejected.
+
+5. **Explain the event loop in JavaScript.**
+   - The event loop is a mechanism that JavaScript uses to handle asynchronous operations. It allows non-blocking I/O operations by pushing tasks to a callback queue and executing them in order when the call stack is empty.
+
+6. **What is `this` keyword in JavaScript?**
+   - The `this` keyword refers to the object from which the function is called. Its value is determined by how a function is called (runtime binding).
+
+7. **What is the difference between `==` and `===` operators?**
+   - `==` is the abstract equality operator, which performs type coercion before comparing. `===` is the strict equality operator, which compares both value and type without coercion.
+
+8. **How can you handle errors in JavaScript?**
+   - Errors in JavaScript can be handled using `try...catch` blocks, which allow you to catch exceptions and handle them gracefully.
+
+9. **What is the Document Object Model (DOM)?**
+   - The DOM is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.
+
+10. **Explain the difference between synchronous and asynchronous functions.**
+    - Synchronous functions are executed in sequence, each one waiting for the previous one to finish. Asynchronous functions can be executed without waiting for the previous function to complete, allowing the program to continue running while waiting for tasks like data fetching.
+
+11. **What is hoisting in JavaScript?**
+    - Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope. Both variable and function declarations are hoisted, but only the declarations, not the initializations.
+
+12. **What are arrow functions and how do they differ from regular functions?**
+    - Arrow functions provide a shorter syntax and do not have their own `this`, `arguments`, `super`, or `new.target` keywords. They are not suitable for methods and cannot be used as constructors.
+
+13. **What is the difference between `null` and `undefined`?**
+    - `undefined` means a variable has been declared but has not yet been assigned a value. `null` is an assignment value that represents no value or no object.
+
+14. **What are higher-order functions in JavaScript?**
+    - Higher-order functions are functions that operate on other functions, either by taking them as arguments or by returning them.
+
+15. **Explain the concept of prototypal inheritance.**
+    - Prototypal inheritance is a feature in JavaScript used to add methods and properties to objects. Objects inherit directly from other objects, rather than from classes.
+
+16. **What is the `call`, `apply`, and `bind` methods in JavaScript?**
+    - `call` and `apply` are used to invoke functions with a specified `this` value and arguments. `call` accepts arguments individually, while `apply` accepts them as an array. `bind` creates a new function that, when called, has its `this` keyword set to the provided value.
+
+17. **What is the use of `async` and `await` in JavaScript?**
+    - `async` and `await` are used to handle promises more efficiently. `async` functions return a promise, and `await` is used to wait for a promise to resolve or reject.
+
+18. **What is an Immediately Invoked Function Expression (IIFE)?**
+    - An IIFE is a function that runs as soon as it is defined. It is used to avoid polluting the global namespace and to create a local scope for variables.
+
+19. **Explain event delegation in JavaScript.**
+    - Event delegation is a technique where a single event listener is added to a parent element to manage all of its child elements. This leverages event bubbling to improve performance and simplify code.
+
+20. **What is the difference between `for...in` and `for...of` loops in JavaScript?**
+    - `for...in` iterates over the enumerable properties of an object, while `for...of` iterates over the values of an iterable object like an array, map, set, etc.
+
+These questions cover a wide range of JavaScript concepts, from basic syntax and data types to more advanced topics like asynchronous programming and inheritance.
